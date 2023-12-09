@@ -1,0 +1,55 @@
+.custom-project-type-label {
+  margin-bottom: 15px !important;
+  padding: 5px 10px;
+  letter-spacing: 0.2px !important;
+  display: flex;
+  border-radius: 10px;
+  background-color: var(--theme-default2);
+  color: #fff !important;
+  align-self: flex-start;
+  @media screen and (max-width: 991px) {
+    font-size: 13px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.custom-project-card-description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.custom-developer-label {
+  color: #878787;
+  font-size: 14px;
+  span {
+    color: var(--theme-default2);
+  }
+}
+
+.custom-project-price {
+  color: var(--theme-default2) !important;
+}
+
+.custom-project-title {
+  font-weight: bold;
+  a {
+    font-size: calc(18px + 4 * (100vw - 320px) / 1600);
+    color: inherit;
+    &:hover {
+      color: var(--theme-default2) !important;
+    }
+  }
+}
+
+.custom-link > a{
+  color:red !important;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 14px;
+}

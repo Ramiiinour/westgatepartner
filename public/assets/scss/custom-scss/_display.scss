@@ -1,0 +1,40 @@
+.miw-75-px {
+    min-width: 75px;
+}
+
+.custom-separator-hr{
+    height: 0;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 0;
+}
+
+.justify-content-center-md {
+    @media screen and (max-width: 768px) {
+        justify-content: center !important;
+    }
+}
+
+.custom-line-clip-3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+.custom-line-clip-4 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+.custom-line-clip-5 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }

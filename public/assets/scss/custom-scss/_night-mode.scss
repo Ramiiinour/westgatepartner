@@ -1,0 +1,47 @@
+.dark-layout {
+  .rsw-editor {
+    button {
+      color: #fff;
+      &:hover {
+        background-color: #0f0f0f;
+      }
+    }
+    .rsw-toolbar {
+      background-color: #1b1b1b;
+    }
+    .rsw-dd {
+      background-color: #0f0f0f;
+      color: #fff;
+    }
+  }
+
+  .fas.fa-cloud-upload-alt {
+    color: #1b1b1b;
+  }
+
+  .btn-secondary {
+    background-color: #2a2a2a !important;
+  }
+
+  .custom-example-card {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+  }
+
+  .custom-spin-loader {
+    background-color: #2a2a2a !important;
+  }
+
+  .dzu-dropzone {
+    .dzu-previewContainer {
+      background-color: #2a2a2a;
+    }
+    .dzu-previewButton {
+      color: #fff !important;
+      background-image: url(../../custom-images/icons/cross-white.svg) !important;
+    }
+    .dzu-inputLabelWithFiles {
+      background-color: #2a2a2a;
+    }
+  }
+}

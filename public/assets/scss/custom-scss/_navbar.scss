@@ -1,0 +1,33 @@
+.custom-profiledown {
+  top: 50px;
+  li {
+    &:hover {
+      color: var(--theme-default2);
+      text-decoration: unset;
+      cursor: pointer;
+      a {
+        color: var(--theme-default2) !important;
+        text-decoration: unset;
+        svg {
+          color: var(--theme-default2);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+
+.custom-maximize-btn {
+  text-align: right;
+  cursor: pointer;
+}
+
+
+
+.custom-switch-option-setting {
+  line-height: 0;
+  .switch {
+    margin-bottom: 0 ;
+    line-height: 0;
+  }
+}
